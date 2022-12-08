@@ -14,3 +14,7 @@ My goal is to better understand all stages of development from the side of devel
 * Graphics - **Figma**
 * API - **Postman**
 * Web - **HTML**, **CSS**
+# Code example
+`function greet() {`
+`   return 'hello world!';`
+`}`
