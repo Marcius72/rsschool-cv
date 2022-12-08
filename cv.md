@@ -18,3 +18,11 @@ My goal is to better understand all stages of development from the side of devel
 ```function greet() {`
 `   return 'hello world!';`
 `}```
+# Work experience 
+### ITD
+*Project manager | Years of work: Oct. 2020 - till now*
+# Education 
+### Financial University under the Government of the Russian Federation, Moscow
+*Credit and economic, Banking | 2011- 2015*
+# Language
+English level - **A2**
