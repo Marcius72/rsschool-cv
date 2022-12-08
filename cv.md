@@ -15,6 +15,6 @@ My goal is to better understand all stages of development from the side of devel
 * API - **Postman**
 * Web - **HTML**, **CSS**
 # Code example
-`function greet() {`
+```function greet() {`
 `   return 'hello world!';`
-`}`
+`}```
