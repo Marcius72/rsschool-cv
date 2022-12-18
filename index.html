@@ -1,13 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>CV</title>
-    <meta name="description" content="The HTML5 Herald">
-    <meta name="author" content="SitePoint">
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <title>cv</title>
 </head>
 <body>
-    <script src="js/scripts.js"></script>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                <li class="nav-item"><a class="nav-ref" href="#contacts" class="nav-link">contacts</a></li>
+                <li class="nav-item"><a class="nav-ref" href="#about me" class="nav-link">about me</a></li>
+                <li class="nav-item"><a class="nav-ref" href="#skills" class="nav-link">skills</a></li>
+                <li class="nav-item"><a class="nav-ref" href="#code example" class="nav-link">code example</a></li>
+                <li class="nav-item"><a class="nav-ref" href="#work experience" class="nav-link">work experience</a></li>
+                <li class="nav-item"><a class="nav-ref" href="#education" class="nav-link">education</a></li>
+                <li class="nav-item"><a class="nav-ref" href="#language" class="nav-link">language</a></li>
+                </ul>
+            </nav>   
+        </div>   
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="section me-section">
+                <div>
+                    <h1>MARK KASIMCHUK</h1>
+                    <h2>Project manager</h2>
+                </div>
+                <img class="photo" src="assets/img/img.jpg" alt="my photo">
+            </section>
+        </div>
+
+        <div class="container cv-container">
+            <!-- left column -->
+            <div class="section-left_column">
+                <section class="section contacts-section" id="contacts">
+                    <h3>Contacts</h3>
+                    <ul class="ul-contacts">
+                        <li><a class="contact-ref" href="https://github.com/Marcius72">GitHub</a></li>
+                        <li><a class="contact-ref" href="https://tlgg.ru/marcius72">Telegram</a></li>
+                    </ul>
+                </section>
+                <section class="section skills-section" id="skills">
+                    <h3>Skills</h3>
+                    <ul class="ul-skills">
+                        <li>Project tracking - Youtrack, Jira, Notion</li>
+                        <li>Graphics - Figma</li>
+                        <li>API - Postman</li>
+                        <li>Web - HTML, CSS</li>
+                    </ul>
+                </section>
+                <section class="section education-section" id="education">
+                    <h3>Education</h3>
+                    <p class="text main-text">Financial University under the Government of the Russian Federation<br>
+                        Banking | 2011- 2015</p>
+                </section>
+                <section class="section language-section" id="language">
+                    <h3>Language</h3>
+                    <p class="text main-text">English level - A2</p>
+                </section>
+            </div>
+            <!-- line -->
+            <div class="line"></div>
+            <!-- right column -->
+            <div class="section-right_column">
+                <section class="section about_me-section" id="about me">
+                    <h3>About me</h3>
+                    <p class="text main-text">I am a project manager, with a team we are developing a web application for a media buyer. 
+                        My goal is to better understand all stages of development from the side of developers. 
+                    </p>
+                    <ul>   
+                        Strengths:
+                        <li>Team player</li>
+                        <li>I always try to get everything right</li>
+                    </ul> 
+                    
+                </section>
+                <section class="section work_experience-section" id="work experience">
+                    <h3>Work experience</h3>
+                    <p class="text main-text">Project manager | Years of work: Oct. 2020 - till now</p>
+                </section>
+                <section class="section code_example-section" id="code example">
+                    <h3>Code example</h3>
+                    <div class="code">
+                        <code>
+                            multiply = function (a, b) { <br>
+                            return a * b;
+                        }
+                        </code>
+                    </div>
+                </section>
+            </div>
+            
+        </div>   
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                <p class="text footer-text">&#169; Mark Kasimchuk 2022</p>
+                <a class="footer-ref" href="https://github.com/Marcius72">GitHub</a>
+            </div>    
+            <div>
+                <a href="https://rs.school/js/"><img src="/rsschool-cv/assets/svg/rs_logo.svg" width="90px" height="80px" alt="RSSchool"></a>
+            </div>
+        </div>   
+    </footer>
 </body>
 </html>
+

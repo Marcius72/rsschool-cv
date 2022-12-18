@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Raleway;
+    src: url("assets/fonts/Raleway/");
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("assets/fonts/Lato/");
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    background: white;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: Raleway;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: lato;
+}
+
+h3 {
+    font-size: 45px;
+    font-family: lato;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: lato;
+}
+
+
+.nav-ref,
+.footer-ref {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-ref {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+ul, code {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: lato;
+    font-size: 20px;
+}
+
+p {
+    font-family: lato;
+}
+
+.main-text {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+/* navigatin */
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(235, 244, 253, 1);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.nav-item {
+    padding-right: 0.7rem;
+}
+
+
+.me-section {
+    background-color: rgba(235, 244, 253, 1);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.photo {
+    object-fit: cover;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+  .section-item a:hover {
+    color: #4d2323;
+}
+
+
+.line {
+    border-left: 1.5px solid #fff;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+.cv-container {
+    display: flex;
+    background: linear-gradient(0deg, #003459, #003459),
+    radial-gradient(52.86% 92.92% at 0% 100%, rgba(0, 168, 232, 0.31) 0%, rgba(0, 168, 232, 0) 100%),
+    radial-gradient(55.26% 106.92% at 100% 0%, rgba(85, 194, 236, 0.94) 0%, rgba(0, 168, 232, 0) 100%);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.section-left_column {
+    flex-basis: 25%;
+    padding-left: 1%;
+}
+
+.contacts-section, 
+.skills-section, 
+.education-section, 
+.about_me-section,
+.work_experience-section {
+    border-bottom: #fff 1.5px solid;
+}
+
+.code_example-section, 
+.work_experience-section, 
+.about_me-section {
+    padding-left: 1%;
+}
+
+
+.code {
+    backdrop-filter: hue-rotate(33deg);
+    max-width: fit-content;
+}
+
+.footer-container {
+    background: rgba(235, 244, 253, 1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text {
+    color: #000;
+}
+
+.ul-contacts,
+.ul-skills {
+    font-size: 20px;
+}
